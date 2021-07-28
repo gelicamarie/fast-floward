@@ -1,3 +1,7 @@
+/*
+    Create a resource that prints Picture's but only once for each unique 5x5 Canvas.
+    pub resource Printer line 24 - 57
+ */
 pub struct Canvas {
     pub let width: UInt8
     pub let height: UInt8
@@ -18,12 +22,29 @@ pub resource Picture{
     }
 }
 pub resource Printer{
+   pub let width: UInt8
+   pub let height:UInt8
    pub var pixelCollection:[String];
     
-    init(){
+    init(width: UInt8, height: UInt8){
+        self.width = width;
+        self.height=height;
         self.pixelCollection=[];
     }
     pub fun print(canvas: Canvas) : @Picture? {
+        //day 2 Given Code 
+        //checks if canvas fits
+        if canvas.pixels.length != Int(self.width * self.height){
+            return nil
+        }
+        //checks that canvas only uses visible ASCII chars
+        for symbol in canvas.pixels.utf8 {
+            if symbol < 32 || symbol > 126{
+                return nil
+            }
+        }
+
+        // end 
         if self.pixelCollection.contains(canvas.pixels) {
             log("This picture has already been printed.")
             return nil
@@ -105,7 +126,7 @@ pub fun main(){
     /*
         Test : result 1 and 3 should print, and result 2 should log a message
      */
-    let printer <- create Printer()
+    let printer <- create Printer(width: canvasX.width, height: canvasX.height)
     let result1 <- printer.print(canvas: canvasX)
     let result2 <- printer.print(canvas : canvasX)
      let result3 <- printer.print(canvas : canvasY)

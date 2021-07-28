@@ -1,3 +1,9 @@
+/*
+    Write a function that displays a canvas in a frame.
+    pub fun display(canvas: Canvas) -> line 36 - 59
+ */
+
+
 pub struct Canvas {
     pub let width: UInt8
     pub let height: UInt8
@@ -41,11 +47,8 @@ pub fun display(canvas: Canvas)  {
         log(sides)
         counter = counter + 1
     }
-
    log(topBottom)
-
 // [0 1 2 3 4 5(.) 6 7 8 9 10 11(.) 12 13 14 15 16 17(.) 18 19 20 21 22 ]
-//
 // "+-----+"  
 // "|*   *|"   
 // "| * * |"
@@ -53,7 +56,6 @@ pub fun display(canvas: Canvas)  {
 // "| * * |"
 // "|*   *|"
 // "+-----+"
-
 }
 
 pub fun main(){

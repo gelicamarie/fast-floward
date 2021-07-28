@@ -1,3 +1,9 @@
+Make sure to navigate inside this file to run the files
+
+```
+cd week1/quest
+```
+
 To run the corresponding files:
 
 Quest 1:
