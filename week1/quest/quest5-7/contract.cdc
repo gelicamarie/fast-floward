@@ -36,9 +36,9 @@ pub contract Artist {
         pub let prints: {String: Canvas}
 
         init(width: UInt8, height: UInt8) {
-        self.width = width;
-        self.height = height;
-        self.prints = {}
+            self.width = width;
+            self.height = height;
+            self.prints = {}
         }
 
         pub fun print(canvas: Canvas): @Picture? {
@@ -83,6 +83,17 @@ pub contract Artist {
 
         destroy() {
         destroy self.pictures
+        }
+
+        pub fun getCanvases(): [Canvas] {
+            var canvases: [Canvas] = []
+            var index = 0
+
+            while index < self.pictures.length {
+                canvases.append(self.pictures[index].canvas)
+                index = index + 1
+            }
+            return canvases
         }
     }
 
