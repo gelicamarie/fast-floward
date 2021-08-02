@@ -1,6 +1,3 @@
-/*
-Quest 8 
-*/
 pub contract LocalArtist {
 
   pub event PrinterCreated()

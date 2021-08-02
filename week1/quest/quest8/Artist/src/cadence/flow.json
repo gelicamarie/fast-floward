@@ -16,16 +16,16 @@
   "accounts": {
     "emulator-account": {
       "address": "f8d6e0586b0a20c7",
-      "key": "eeaf0ed13cfdada9377c1d4a3a70fa3ac5edf6253d6722e9252cd9a7a0d1680f"
+      "key": "7921be96452009a9385bf25c7616fe32ba8ccf911d05678a4bbbf57268e81a6c"
     },
     "testnet-local-artist": {
-      "address": "0feb51ab5ee42b6a",
+      "address": "0x968eaba38619f209",
       "key": {
         "type": "hex",
         "index": 0,
         "signatureAlgorithm": "ECDSA_secp256k1",
         "hashAlgorithm": "SHA3_256",
-        "privateKey": "bc4cff3c2769d6aa08af12a0ba7a59bd4ec667ff2e85899ff0fa4c26afd1537a"
+        "privateKey": "74343fcbc95a6d29468373e72941b625a8220ff1da441ff7ba506c64671701be"
       }
     }
   },
