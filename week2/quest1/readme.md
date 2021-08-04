@@ -36,7 +36,7 @@ Ex. In Area 1:
 | c    | ✅   | ❌       |
 | d    | ❌   | ❌       |
 
-\
+/
 | Functions |
 |-----------|
 | publicFunc |
