@@ -2,7 +2,7 @@
 
 [View screenshots](#screenshots) 
 
-To Run the Server click here.
+To Test run the server + quest 3 click [here](https://github.com/gelicamarie/glossy-klilathey-B7PD)
 
 - `W2Q3` – Hey, Where'd the Functions Go?
 
@@ -13,3 +13,4 @@ Then, `yarn start` your dApp and go to the UI Harness. See if the **action card*
 Note: in the `deposit` function, I ask you to use a new syntax: `as!`. You can find an example of this in KittyItems.cdc if it helps.
 
 ## Screenshots
+![image](https://user-images.githubusercontent.com/66178381/128272707-d89011bb-ea92-4a00-8ea7-72a7a7fed55f.png)
