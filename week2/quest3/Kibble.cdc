@@ -1,6 +1,5 @@
 /*
-    Quest 3 : lines  102 - 117
-    Quest 4 : lines 80-91
+    Quest 3 : lines  102 - 117 & 148-163
  */
 import FungibleToken from Flow.FungibleToken
 
@@ -81,13 +80,13 @@ pub contract Kibble: FungibleToken {
             // TODO: Delete the line below and implement this function
 
             // 1) Take away 'amount' balance from this Vault 
-            self.balance= self.balance - amount
+      
 
             // 2) emit TokensWithdrawn
-            emit TokensWithdrawn(amount: amount, from: self.owner?.address)
+           
             
             // 3) return a new Vault with balance == 'amount'
-            return <- create Vault(balance: amount)
+        
         }
 
         // deposit
