@@ -1,8 +1,8 @@
 # Quest 3
 
-Click here for screenshots \
+[View screenshots](#screenshots) 
 
-To Run the Server click here. \
+To Run the Server click here.
 
 - `W2Q3` – Hey, Where'd the Functions Go?
 
