@@ -9,7 +9,7 @@ access(all) contract SomeContract {
         pub var b: String //read all, write current and inner
 
         /*
-        read current, inner and containg contract
+        read current, inner and containing contract
         write current and inner */
         access(contract) var c: String 
 
