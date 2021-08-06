@@ -16,6 +16,7 @@ In `packages/client/src/harness/fast_floward-harness.js`, search for 3 action ca
 2. Buy Market Item Action Card
 
 ![image](https://user-images.githubusercontent.com/66178381/128578554-ebff8433-dd8d-4920-966c-6e9500363aa8.png)
+
 Showing that Chen's account succesfully bought Alice's
 
 ![image](https://user-images.githubusercontent.com/66178381/128578612-dd57c977-3abf-4981-b927-6d5fb6bdd474.png)
