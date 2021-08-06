@@ -12,4 +12,13 @@ Next, you will have to implement the transactions and scripts themselves. There 
 
 ## Screenshots
 
-1. Mint Kitty Item
+1. Mint Kitty Item Transaction Action Card
+![image](https://user-images.githubusercontent.com/66178381/128563136-4781d855-e125-49ea-a5c3-d88289997805.png)
+
+2. Transfer Kitty from Signer to Recipient Action Card
+![image](https://user-images.githubusercontent.com/66178381/128564427-afb052d1-304d-4713-8cf9-01d703d9f680.png)
+
+
+3. Read Collection Id, Collection Length, KittyItem TypeID, and Kitty Items Supply Script Action Cards
+![image](https://user-images.githubusercontent.com/66178381/128563352-4415f74f-90dd-4863-a195-8bd8d022b906.png)
+  
