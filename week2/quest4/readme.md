@@ -1,6 +1,6 @@
 # Quest 4
 
-[View screenshots](#screenshot)
+[View screenshots](#screenshots)
 
 To Test run the server + quest 4 click [here](https://github.com/gelicamarie/glossy-klilathey-B7PD)
 
