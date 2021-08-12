@@ -1,7 +1,5 @@
 # Quest 2
 
-[View screenshots](#screenshots)
-
 To Test run the server + quest 2 click [here](https://github.com/gelicamarie/fast-floward-registry-demo)
 
 - `W3Q2` – Composability <3 Access Control
